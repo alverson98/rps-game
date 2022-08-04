@@ -1,0 +1,41 @@
+Rock, Paper, Scissors Game
+
+NEED:
+- alerts
+- prompts
+- confirms
+- variables
+
+logic of this game -  user will select a value and the computer will select randomly value
+
+how does a user win this game?
+
+R beats Scissors
+P beats Rock
+S beats Paper
+
+
+what dtat do I need to track in the app?
+wins, losses, ties --> create variables
+
+computer selection - how a, I going to have the pc randomly choose one of these 3 values??
+
+R,P,S ?
+
+// array has index     0    1    2
+var computerChoice = ["R", "P", "S"]
+
+Math.floor()
+Math.random()
+
+Once we have the user selection and random computer selection...
+need to compare the two values to see if the user won, loss, or tied
+        - use if statement
+
+if user wins - wins++
+
+logical operators...
+&& both need to be true
+|| one needs to be true
+
+Can I use a function?
